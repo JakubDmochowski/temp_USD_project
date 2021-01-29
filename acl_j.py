@@ -9,7 +9,7 @@ tf.compat.v1.enable_eager_execution()
 algorithm_name = "actor_critic_lambda_ram_joined"
 version = "1"
 save_models = True
-loaded_episode = 1265 # available_models: 130, 345, 630, 900, 1265
+loaded_episode = 900 # available_models: 130, 345, 630, 900, 1265
 
 # set load_snapshot to False to create model from scratch
 load_snapshot = "./model_snapshots/model_{}_{}_ep{}".format(algorithm_name, version, loaded_episode)
